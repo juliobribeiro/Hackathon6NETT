@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Hackathon-6NETT.API", "1-Hackathon-6NETT.API", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Hackathon-6NETT.Application", "2-Hackathon-6NETT.Application", "{1FDD3CC4-AE41-4003-97A1-83160BBA242C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Hackathon-6NETT.Domain", "3-Hackathon-6NETT.Domain", "{0B0523D5-3716-46E2-9401-C57A87113845}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Hackathon-6NETT.Services.Auth", "4-Hackathon-6NETT.Services.Auth", "{31F1E224-7914-4DBD-919D-6180A51BFDD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Hackathon-6NETT.Infra", "5-Hackathon-6NETT.Infra", "{E9EB959F-7C3C-4E21-9935-CA808D2A300C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1-Hackathon-6NETT.Data", "5.1-Hackathon-6NETT.Data", "{FE2BB92A-5A82-4EA9-BA29-510206BBF3C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon-6NETT.Domain", "Hackathon-6NETT.Domain\Hackathon-6NETT.Domain.csproj", "{848BF2AC-E458-4270-88C4-3767679BA7D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon-6NETT.Applications", "Hackathon-6NETT.Applications\Hackathon-6NETT.Applications.csproj", "{7F9A5ECC-0A28-44A6-8778-28AFF104338A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon-6NETT.Services.Auth", "Hackathon-6NETT.Services.Auth\Hackathon-6NETT.Services.Auth.csproj", "{9BBD2AF9-B09E-4B74-B3E5-EB113FF099F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon-6NETT.Data", "Hackathon-6NETT.Data\Hackathon-6NETT.Data.csproj", "{CB8E426E-0510-42F5-8A04-18557F27677F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon-6NETT.API", "Hackathon-6NETT.API\Hackathon-6NETT.API.csproj", "{A5C09CEC-D76C-4390-B3B9-E809CE2052B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{848BF2AC-E458-4270-88C4-3767679BA7D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848BF2AC-E458-4270-88C4-3767679BA7D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848BF2AC-E458-4270-88C4-3767679BA7D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848BF2AC-E458-4270-88C4-3767679BA7D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F9A5ECC-0A28-44A6-8778-28AFF104338A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F9A5ECC-0A28-44A6-8778-28AFF104338A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F9A5ECC-0A28-44A6-8778-28AFF104338A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F9A5ECC-0A28-44A6-8778-28AFF104338A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BBD2AF9-B09E-4B74-B3E5-EB113FF099F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BBD2AF9-B09E-4B74-B3E5-EB113FF099F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BBD2AF9-B09E-4B74-B3E5-EB113FF099F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BBD2AF9-B09E-4B74-B3E5-EB113FF099F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB8E426E-0510-42F5-8A04-18557F27677F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB8E426E-0510-42F5-8A04-18557F27677F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB8E426E-0510-42F5-8A04-18557F27677F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB8E426E-0510-42F5-8A04-18557F27677F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5C09CEC-D76C-4390-B3B9-E809CE2052B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C09CEC-D76C-4390-B3B9-E809CE2052B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C09CEC-D76C-4390-B3B9-E809CE2052B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C09CEC-D76C-4390-B3B9-E809CE2052B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE2BB92A-5A82-4EA9-BA29-510206BBF3C9} = {E9EB959F-7C3C-4E21-9935-CA808D2A300C}
+		{848BF2AC-E458-4270-88C4-3767679BA7D1} = {0B0523D5-3716-46E2-9401-C57A87113845}
+		{7F9A5ECC-0A28-44A6-8778-28AFF104338A} = {1FDD3CC4-AE41-4003-97A1-83160BBA242C}
+		{9BBD2AF9-B09E-4B74-B3E5-EB113FF099F0} = {31F1E224-7914-4DBD-919D-6180A51BFDD4}
+		{CB8E426E-0510-42F5-8A04-18557F27677F} = {FE2BB92A-5A82-4EA9-BA29-510206BBF3C9}
+		{A5C09CEC-D76C-4390-B3B9-E809CE2052B8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87E472B1-A3DF-4B6A-A1FA-AD4FC764C2BE}
+	EndGlobalSection
+EndGlobal
